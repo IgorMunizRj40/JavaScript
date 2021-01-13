@@ -1,10 +1,3 @@
-console.log('Galdino')
-console.log('Bem vindo ao curso')
-let idade = 33; //variavel let ou var a mais atual e let 
-console.log(idade); //imprimir na tela a let(variavel) idade
-let nome = "Igor";
-console.log(nome); 
-let sexo = "Masculino";
-console.log(sexo);
-let time = "Flamengo";
-console.log(time);
+const valorIngressoAdulto = 20;//usamos const quando temos valores definidos
+// valorIngressoAdulto = 30;//apresentara um erro pois se eu uma constante não podemos redefinir os valores
+console.log(valorIngressoAdulto);//ok e recomendado usar sempre o const pois o let e para quando for alterar valores
