@@ -5,8 +5,13 @@ let idade = 40; //number literal
 let estaAprovado = true; //bolean
 let sobreNome = undefined; //indefinido
 let corSelecionada = null; //usada para redefinir valores
-console.log(nome);
-console.log(idade);
-console.log(estaAprovado);
-console.log(sobreNome);
-console.log(corSelecionada);
+
+let pessoa = {
+    nome : 'Alex',
+    idade: 40,
+    estaAprovado: true,
+    sobreNome: 'Diniz'
+
+};
+
+console.log(pessoa);
