@@ -1,4 +1,5 @@
 //Tipos primitivos de referencias
+//Tipagem Dinamica
 let nome = "Alex"; // string literal
 let idade = 40; //number literal
 let estaAprovado = true; //bolean
